@@ -1,3 +1,4 @@
+//Write a program to give discounts to coustomers without using else if
 #include <stdio.h>
 
 int main() {
