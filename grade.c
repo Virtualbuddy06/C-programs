@@ -1,3 +1,4 @@
+//Write a program to give grade to students without using else if
 #include <stdio.h>
 
 int main() {
