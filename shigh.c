@@ -1,4 +1,4 @@
-
+//TO PRINT THE SECOND HIGHEST NUMBER IN THE ARRAY
 #include <stdio.h>
 #include <limits.h>
 int main()
