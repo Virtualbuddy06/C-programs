@@ -31,7 +31,7 @@ void enqueue(PQ *ptr, int val)
     while (c != 0)
     {
       p = (c - 1) / 2;
-      if (ptr->arr[p] < ptr->arr[c])
+      if (ptr->arr[p] > ptr->arr[c])
       {
         t = ptr->arr[p];
         ptr->arr[p] = ptr->arr[c];
@@ -158,4 +158,5 @@ int main()
       printf("Invalid choice! Try again.\n");
     }
   }
+
 }
